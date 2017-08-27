@@ -2,18 +2,18 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+set :css_dir, 'stylesheets'
+
+set :js_dir, 'javascripts'
+
+set :images_dir, 'images'
+
+
 activate :sprockets
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
-configure :development do
-  set :css_dir, 'stylesheets'
-  set :js_dir, 'javascripts'
-  set :images_dir, 'images'
-  set :fonts_dir, 'fonts'
-end
 
 configure :build do
   activate :minify_css
