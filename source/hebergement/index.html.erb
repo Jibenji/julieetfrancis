@@ -1,0 +1,133 @@
+---
+title: Julie et François / Ile d'Yeu 2018
+---
+
+<div class="tabs-2">
+  <div class="tab-2 active" data-target=".hotels-tab">
+    <h3>Hôtels</h3>
+  </div>
+  <div class="tab-2" data-target=".hotes-tab">
+    <h3>Chambre d'Hôtes</h3>
+  </div>
+  <div class="tab-2" data-target=".airbnb-tab">
+    <h3>Airbnb</h3>
+  </div>
+  <div class="tab-2" data-target=".camping-tab">
+    <h3>Camping</h3>
+  </div>
+  <div class="tab-2" data-target=".maison-tab">
+    <h3>Maisons à louer</h3>
+  </div>
+  <div class="tab-2" data-target=".autres-tab">
+    <h3>Autres</h3>
+  </div>
+</div>
+
+<div class="tabs-target">
+
+  <div class="tab-content hotels-tab">
+    <div class="square-box-container">
+      <% data.contacts.hotels.each do |h| %>
+        <div class="square-box">
+            <h3><%= h.nom %></h3>
+            <p><%= h.address %></p>
+            <p><%= h.city %></p>
+            <p><%= h.price %>€</p>
+            <p><%= h.tel %></p>
+            <p><%= h.mail %></p>
+            <%= link_to "Site Internet", h.site, target: :blank, class: "lien"  %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="tab-content hotes-tab hidden">
+    <div class="square-box-container">
+      <% data.contacts.chambres.each do |c| %>
+        <div class="square-box">
+          <h3><%= c.nom %></h3>
+          <p><%= c.address %></p>
+          <p><%= c.city %></p>
+          <p><%= c.price %>€</p>
+          <p><%= c.tel %></p>
+          <p><%= c.mail %></p>
+          <%= link_to "Site Internet", c.site, target: :blank, class: "lien" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <% link_to "Autres Chambres d'Hôtes", "http://www.ile-yeu.fr/Hebergement/Chambres-d-hotes-et-chambres-a-louer", target: :blank, class: "lien" %>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content airbnb-tab hidden">
+    <% link_to ("https://www.airbnb.com/s/%C3%8Ele-d'Yeu--France/homes?adults=2&allow_override%5B%5D=&checkin=2018-05-19&checkout=2018-05-21&guests=2&s_tag=ZVE31Cap"), target: :blank do %>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/airbnb.jpg');">
+        <div class="card-category">Airbnb</div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="tab-content camping-tab hidden">
+    <div class="address">
+      <p>60 Rue de St Etienne</p>
+      <p>Port Joinville</p>
+      <p>02.51.58.34.20</p>
+      <p>camping@ile-yeu.fr</p>
+      <div><%= link_to "Site Internet", "http://www.ile-yeu.fr/Hebergement/Camping/Presentation-du-camping" , target: :blank, class: "lien" %></div>
+    </div>
+    <div class="container">
+      <p>Le camping de l'Ile d'Yeu propose des locations de chalets très bien équipés et ... chauffés. Situé à 2 pas de la plage de Ker Châlon, vous serez à Port Joinville en 15 minutes à pieds. Réservation possible dès janvier 2017.
+      </p>
+      <ul>
+        <li>Chalets 4 personnes - 26m²: 1 chambre avec 1 lit double, 1 chambre avec 2 lits simples, 1 séjour avec banquette, 1 cuisine équipée, 1 salle d'eau ave douche et lavabo, WC séparés, terrasse avec salon de jardin
+        </li>
+        <li>Chalets 6 personnes - 35m²: 1 chambre avec 1 lit double, 2 chambres avec 2 lits simples, 1 séjour avec banquette, 1 cuisine équipée, 1 salle d'eau avec douche et lavabo, WC séparés, terrasse avec salon de jardin
+        </li>
+        <li>Gîte de groupe 14 personnes: A l'étage: 7 lits 1 place ; Au RDC: 2 BZ 2 personnes + 3 lits pliants 1 place ; 1 salle d'eau avec douche et lavabo, 1 WC séparés, 1 coin cuisine. Réservation possible à partir de 7 personnes
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-content maison-tab hidden">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <% link_to ("https://www.vacances-de-reve.net/tarifs.iledyeu.html"), target: :blank do %>
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/airbnb.jpg');">
+          <div class="card-category">Maison à louer toute l'année</div>
+        </div>
+        <% end %>
+      </div>
+    <div class="col-xs-12 col-sm-6">
+        <% link_to ("http://www.lesvillasduport.fr/tarifs/"), target: :blank do %>
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/airbnb.jpg');">
+          <div class="card-category">Maison à louer toute l'année</div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content autres-tab hidden">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h4>OYA Vacances</h4>
+        <p>Tel: 02.51.59.41.77</p>
+        <p>Email: contact@oya-vacances.com</p>
+        <%= link_to 'Site', "http://www.oya-vacances.com/usermedia/document-fr-636134451465293281-2.pdf" %>
+        <%= link_to 'Site 2', "http://www.oya-vacances.com/usermedia/document-fr-636190800744880633-2.pdf" %>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <p>OYA vacances est une petite structure regroupant plusieurs appartements sur l'Ile d'Yeu. Ludivine, votre correspondante, s'occupera de tout (réservation du parking à Fromentine, des billets de bateau et viendra vous chercher à la gare maritime de l'Ile d'Yeu pour vous accompagner à votre hébergement).</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+

@@ -1,0 +1,45 @@
+.tabs {
+  padding: 0px 0px 15px 0px;
+}
+
+.tabs a {
+  color: orange;
+  font-size: 22px;
+  padding: 0px 15px;
+}
+
+.tabs a:hover {
+  color: green;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 3px solid green;
+}
+
+#menu {
+  padding-bottom: 15px;
+  button {
+    font-size: 22px;
+  }
+  .btn-info:focus {
+    outline: none;
+    outline-offset: 0px;
+  }
+}
+
+#menu-data ul {
+  list-style-type: none;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+  li{
+    padding: 5px 0px;
+  }
+  li a {
+    color: green;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  li:hover {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green;
+  }
+}

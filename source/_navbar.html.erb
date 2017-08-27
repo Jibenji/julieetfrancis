@@ -1,0 +1,33 @@
+<div class="main-title">
+  <%= link_to "Julie et François", "/", class: "main-title"%>
+</div>
+
+<div class="tabs hidden-xs">
+  <%= link_to "Ile d'Yeu", "/iledyeu", class: "tab active" %>
+  <%= link_to "Programme", "/programme", class: "tab active" %>
+  <%= link_to "Voyage", "/voyage", class: "tab active" %>
+  <%= link_to "Hébergement", "/hebergement", class: "tab active" %>
+  <%= link_to "Infos pratiques", "/infos", class: "tab active" %>
+  <%= link_to "Liste de marriage", "/liste", class: "tab active" %>
+</div>
+<div class="hidden-sm hidden-md hidden-lg" id="menu">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#menu-data" aria-expanded="false" aria-controls="menu-data">
+  Menu
+  </button>
+    <div class="collapse" id="menu-data">
+      <ul>
+        <li><%= link_to "Ile d'Yeu", "/iledyeu", class: "tab active" %></li>
+        <li><%= link_to "Programme", "/programme", class: "tab active" %></li>
+        <li><%= link_to "Voyage", "/voyage", class: "tab active" %></li>
+        <li><%= link_to "Hébergement", "/hebergement", class: "tab active" %></li>
+        <li><%= link_to "Infos pratiques", "/infos", class: "tab active" %></li>
+        <li><%= link_to "Liste de marriage", "/liste", class: "tab active" %></li>
+      </ul>
+  </div>
+</div>
+<div class="banner-wrapper">
+  <div class="banner-xs hidden-sm hidden-md hidden-lg" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 0%), url('images/banner3.jpg');">
+  </div>
+  <div class="banner hidden-xs" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 0%), url('images/banner3.jpg');">
+  </div>
+</div>

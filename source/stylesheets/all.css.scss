@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+// General Style Variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External Frameworks
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//Our files
+@import "partials/*";
+@import "pages/*";
+@import "components/*";
+
+
+
+body {
+  text-align: center;
+  font-family: 'Artifika', serif; }
+
+h1 {
+  color: green;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  padding: 25px;
+  margin: 0;
+}
+
+
+
+

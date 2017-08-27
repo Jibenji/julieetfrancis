@@ -1,0 +1,41 @@
+/* -------------------------------------
+ * Fonts
+ * ------------------------------------- */
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Artifika|Bellefair');
+$base-font: "Artifika", "Helvetica", "sans-serif";
+$header-font: "Artifika", "Helvetica", "sans-serif";
+
+// Local fonts (uncomment following lines)
+// @font-face {
+//   font-family: "Celtic";
+//   src: font-url('celtic.eot');
+//   src: font-url('celtic.eot?#iefix') format('embedded-opentype'),
+//        font-url('celtic.woff') format('woff'),
+//        font-url('celtic.ttf') format('truetype')
+// }
+// $my-font: "Celtic";
+
+// Font-size and line-height
+$base-size: 16px;
+$base-height: 1.4;
+
+/* -------------------------------------
+ * Colors
+ * ------------------------------------- */
+// Scheme
+$brand-color: #D23333;
+
+$red: #EE5F5B;
+$blue: #469AE0;
+$yellow: #FDB631;
+$orange: #E67E22;
+$green: #008000;
+$orange: #F76309;
+
+// Gray scale
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 46.7%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
