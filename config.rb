@@ -56,6 +56,11 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+# Global site settings (not shown here)
+set :site_url, ""
+# ...
+
+
 
 
 # Build-specific configuration
@@ -72,6 +77,8 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
   set :relative_links, true
+
+  set :http_prefix, '/julieetfrancis'
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
