@@ -1,0 +1,22 @@
+
+#footer {
+  width:100%;
+  height:100px;
+  margin-top: 30px;
+  background:lightgrey;
+  color:white;
+  font-weight:bold;
+  font-size:24px;
+  text-align:center;
+  position:static; /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body/page*/
+  left:0;            /*and to the left of the body/page.*/
+  vertical-align: center;
+}
+
+#footer {
+  .container {
+    display: inline-block;
+    margin-top: 40px;
+  }
+}

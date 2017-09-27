@@ -18,7 +18,10 @@
 
 body {
   text-align: center;
-  font-family: 'Artifika', serif; }
+  font-family: 'Artifika', serif;
+ /*you can let your content define it's height*/
+  position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
 
 h1 {
   color: green;
