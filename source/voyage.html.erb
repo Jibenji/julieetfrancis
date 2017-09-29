@@ -4,67 +4,136 @@ title: Julie et François / Ile d'Yeu 2018
 
 <div class="tabs-2">
   <div class="tab-2 active" data-target=".fromentine-tab">
-    <h3>Se rendre à Fromentine</h3>
+    <h3>1/ Se rendre à Fromentine</h3>
   </div>
   <div class="tab-2" data-target=".parkings-tab">
     <h3>Parkings à Fromentine</h3>
   </div>
   <div class="tab-2" data-target=".traverseeyeu-tab">
-    <h3>Traversée vers l'ile d'YEU</h3>
+    <h3>2/ Traversée vers l'ile d'YEU</h3>
   </div>
 </div>
 
 <div class="tabs-target">
+</div>
 
   <div class="tab-content fromentine-tab">
-    <h4>Pour ceux qui le peuvent, nous vous conseillons d’arriver le vendredi soir.</h4>
-    <h4>Une fois votre voyage jusqu'à Fromentine organisé, cliquez sur "Traversée vers l'île d'Yeu"</h4>
-    <h3>1/Rejoindre Fromentine - La Barre de Monts</h3>
-    <h4>Pour cela il y a deux options</h4>
-    <h4>Option (1) En Voiture jusqu'à Fromentine (le plus pratique):</h4>
-    <p>(Cliquez sur "Parkings à Fromentine" pour une liste des garages à Fromentine)</p>
+    <p>
+      Pour ceux qui le peuvent, nous vous conseillons d’arriver le vendredi soir.
+    </p>
+    <p>
+      Une fois votre voyage jusqu'à Fromentine organisé, cliquez sur "2/ Traversée vers l'île d'Yeu"
+    </p>
+    <h3>
+      Rejoindre Fromentine - La Barre de Monts
+    </h3>
+    <h4 class="underline">
+      Option (1) En Voiture jusqu'à Fromentine (le plus pratique):
+    </h4>
+    <p>
+      (Cliquez sur "Parkings à Fromentine" pour une liste des garages à Fromentine)
+    </p>
     <%= link_to image_tag('fromentine.jpg'), "https://www.google.nl/maps/place/Fromentine,+85550+La+Barre-de-Monts,+France/@46.9137906,-2.5400669,8.78z/data=!4m5!3m4!1s0x48051b5ba222cf19:0x260d375364abb772!8m2!3d46.889175!4d-2.140027", target: :blank, id: :"fromentine-map", class: "lien" %>
+    <p>
+      (Vous pouvez cliquer sur la carte)
+    </p>
+    <div class="container">
       <ul class="voyage-list">
-        <li>- de Paris : 450 km, 5h</li>
-        <li>- de Poitiers : 240 km, 2h40</li>
-        <li>- Nantes - Fromentine : 66 km, 1h15</li>
-        <li>- Comptez 30mns de battement pour embarquer sereinement</li>
+        <li>Depuis Paris : 450 km, 5h</li>
+        <li>Depuis Poitiers : 240 km, 2h40</li>
+        <li>Nantes - Fromentine : 66 km, 1h15</li>
+        <li>Comptez 30mns de battement pour embarquer sereinement</li>
       </ul>
-    <h4>Option (2) En train jusqu'à Nantes:</h4>
+    </div>
+    <h4 class="underline">
+      Option (2) En train jusqu'à Nantes puis bus jusqu'à Fromentine:
+    </h4>
+    <div class="container">
       <ul class="voyage-list">
-        <li>- de Paris, 2h10. Trains fréquents</li>
-        <li>- Puis Nantes – Fromentine en Bus : au départ de la gare SNCF – sortie Sud, (sortez à gauche, plusieurs cars "pays de la Loire" sont garés en face)</li>
-        <li>ATTENTION: vous pouvez réserver le train et le bus en même temps: tapez sur voyagessncf.com : DÉPART/ARIVÉE : FROMENTINE LA BARRE DE MONT</li>
-        <%= link_to 'VoyagesSNCF', "https://www.voyages-sncf.com/", target: :blank, class: "lien"%>
+        <li>Depuis Paris, 2h10. Trains fréquents</li>
+        <li>Les bus sont au départ de la gare SNCF – sortie Sud, (sortez à gauche, plusieurs cars "pays de la Loire" sont garés en face)</li>
+        <li>ATTENTION: vous devez réserver le train ET le bus en même temps: tapez sur voyagessncf.com : DÉPART/ARIVÉE : FROMENTINE LA BARRE DE MONT</li>
+        <%= link_to 'VoyagesSNCF', "https://www.voyages-sncf.com/", target: :blank, class: "lien" %>
       </ul>
-      <h4>Option (3) En avion jusqu'à l'île d'Yeu ou Nantes:</h4>
-        <p>Nantes est un aéroport international</p>
-        <p>Vous pouvez rejoindre l'île d'YEU depuis l'aéroport de Nantes (ou autres) via des petits avions. Il faut vous organiser avec l'aérodrome de l'île. 02.51.58.38.22</p>
-        <%= link_to 'Site', "http://www.ile-yeu.fr/Acces/Aerodrome", target: :blank, class: "lien" %>
-      <h3>Vous pouvez prendre un taxi ou un bus pour faire Nantes-Fromentine</h3>
+    </div>
+
+      <h4 class="underline">
+        Option (3) En avion jusqu'à Nantes puis taxi jusqu'à Fromentine:
+      </h4>
+      <p>
+        Nantes est un aéroport international. Une fois à Nantes vous pouvez prendre un taxi pour faire Nantes-Fromentine
+      </p>
       <p>Taxis Montois, réservez au 02.51.68.52.83</p>
-      <p>tarifs par voiture: (6 et 7 places dans les monospaces)</p>
-      <ul class="voyage-list">
-        <li>9h à 19h : 90 €</li>
-        <li>Dimanche et après 19h : 120 €</li>
-        <li>De l'aéroport: 80€ et 110€</li>
-      </ul>
-      <p>Comptez 1h30 entre l'arrivée en gare de Nantes et l'embarquement sur les bateaux pour être large</p>
+      <p>Pour 1 taxi sur réservation, jusqu'à 8 passagers:</p>
+
+      <div class="container">
+        <ul class="voyage-list">
+          <li>Nantes Gare/Fromentine:</li>
+          <li class="padded-left">Du Lundi au Samedi inclus, entre 7h00 et 19h00 -- 110€</li>
+          <li class="padded-left">Dimanche, jours fériés, et entre 19h00 et 7h00 -- 150€</li>
+          <li></li>
+          <li>Nantes Aéroport/ Fromentine:</li>
+          <li class="padded-left">Du Lundi au Samedi inclus, entre 7h00 et 19h00 -- 100€</li>
+          <li class="padded-left">Dimanche, jours fériés, et entre 19h00 et 7h00 -- 140€</li>
+        </ul>
+      </div>
+
+      <p>
+        Vous pouvez même rejoindre l'île d'Yeu depuis l'aéroport de Nantes (ou autres) via des petits avions. Il faut vous organiser avec l'aérodrome de l'île. 02.51.58.38.22
+      </p>
+      <%= link_to 'Site', "http://www.ile-yeu.fr/Acces/Aerodrome", target: :blank, class: "lien" %>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="card-in-text card" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/eglise.jpg');">
+          </div>
+        </div>
+      </div>
   </div>
+
+
 
   <div class="tab-content traverseeyeu-tab hidden">
     <h4>Pour ceux qui le peuvent, nous vous conseillons d’arriver le vendredi soir.</h4>
+
+    <h3>Fromentine/Yeu en bateau</h3>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="card card-in-text" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/eglise.jpg');">
+          <div class="card-category"></div>
+        </div>
+      </div>
+    </div>
     <p>Pour l’instant nous savons qu’il y a les bateaux suivants avec Yeu Continent (30 min de traversée):</p>
     <p>le VENDREDI à : 19h, 20h et 21h45</p>
     <p>le SAMEDI à : 9h15 et 10h30</p>
-    <%= link_to 'Site', "https://www.yeu-continent.fr/", target: :blank %>
+    <%= link_to 'Site', "https://www.yeu-continent.fr/", target: :blank, class: "lien" %>
+
+
+    <h3>Fromentine/Yeu en hélicoptère</h3>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="card card-in-text" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/helico.jpg');">
+          <div class="card-category"></div>
+        </div>
+      </div>
+    </div>
+    <p>100€ Aller / 200€ Aller-Retour</p>
+    <p>Possibilités de laisser sa voiture sur le parking de l'héliport gratuitement ou qu'un garage vienne la chercher et vous la rapporte si vous revenez en hélico (supplément 19€)</p>
+    <%= link_to 'Site', "http://www.oya-helico.fr/", target: :blank, class: "lien" %>
+
 
     <p>Nous devrions avoir tous les horaires à la Toussaint, cependant nous vous conseillons dès à présent de réserver votre hébergement</p>
     <%= link_to 'Nos solutions hébergement', "/hebergement.html" %>
     <p>Dès que nous aurons tous les horaires nous vous enverrons un mail !</p>
   </div>
 
+
   <div class="tab-content parkings-tab hidden">
+
+    <div class="container">
+      <h4>Les parkings Blanchard et Bodin sont les plus proches de l'embarcadère</h4>
+      <h4>Les parkings Martineau et Alizés ont des minibus gratuits pour vous y accompagner et venir vous chercher au retour.</h4>
+    </div>
     <div class="square-box-container">
       <% data.contacts.parkings.each do |h| %>
         <div class="square-box">
@@ -73,12 +142,11 @@ title: Julie et François / Ile d'Yeu 2018
             <p><%= h.city %></p>
             <p><%= h.tel %></p>
             <p><%= h.mail %></p>
-            <%= link_to "Site Internet", h.site, target: :blank, class: "lien"  %>
+            <%= link_to "Site", h.site, target: :blank, class: "lien"  %>
         </div>
       <% end %>
     </div>
   </div>
 
-</div>
 
 
