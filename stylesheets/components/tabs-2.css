@@ -1,0 +1,53 @@
+/* line 1, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tabs-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  background-color: lightgrey; }
+
+/* line 9, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tabs-2 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 15, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tabs-2 p {
+  opacity: 0.5;
+  margin-bottom: 0; }
+
+/* line 19, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tab-2 {
+  text-align: center;
+  padding: 0px 30px 20px 30px; }
+
+/* line 23, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tab-2.active {
+  border-bottom: solid orange;
+  color: black; }
+
+/* line 28, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+.tab-content {
+  padding: 0px 30px; }
+
+@media only screen and (max-width: 500px) {
+  /* line 34, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+  .tabs-2 {
+    display: block;
+    padding-top: 0px; }
+
+  /* line 38, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+  .tab-2 {
+    padding: 10px 0px; }
+
+  /* line 41, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs-2.css.scss */
+  .tab-2.active {
+    border-bottom: solid orange;
+    border-top: solid orange; } }

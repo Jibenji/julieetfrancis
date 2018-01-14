@@ -1,0 +1,34 @@
+/* line 1, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+.voyage-list {
+  list-style-type: none;
+  text-align: left; }
+
+/* line 6, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+.padded-left {
+  padding-left: 30px; }
+
+/* line 10, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+.underline {
+  border-bottom: solid orange; }
+
+/* line 14, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+.tab-content h3 {
+  padding-bottom: 20px;
+  color: green; }
+
+/* line 19, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+.tab-content h4 {
+  padding-bottom: 10px; }
+
+/* line 23, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+#fromentine-map img {
+  height: 300px;
+  border-radius: 5px;
+  -webkit-box-shadow: solid black 1px;
+          box-shadow: solid black 1px; }
+
+@media only screen and (max-width: 500px) {
+  /* line 30, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/pages/voyage.css.scss */
+  #fromentine-map img {
+    width: 100%;
+    height: 250px; } }

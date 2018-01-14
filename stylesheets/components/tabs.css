@@ -1,0 +1,45 @@
+/* line 1, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+.tabs {
+  padding: 0px 0px 15px 0px; }
+
+/* line 5, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+.tabs a {
+  color: orange;
+  font-size: 22px;
+  padding: 0px 15px; }
+
+/* line 11, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+.tabs a:hover {
+  color: green;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 3px solid green; }
+
+/* line 18, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+#menu {
+  padding-bottom: 15px; }
+  /* line 20, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+  #menu button {
+    font-size: 22px; }
+  /* line 23, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+  #menu .btn-info:focus {
+    outline: none;
+    outline-offset: 0px; }
+
+/* line 29, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+#menu-data ul {
+  list-style-type: none;
+  padding: 10px 0px 0px 0px;
+  margin: 0px; }
+  /* line 33, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+  #menu-data ul li {
+    padding: 5px 0px; }
+  /* line 36, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+  #menu-data ul li a {
+    color: green;
+    font-size: 18px;
+    text-decoration: none; }
+  /* line 41, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/tabs.css.scss */
+  #menu-data ul li:hover {
+    border-top: 3px solid green;
+    border-bottom: 3px solid green; }

@@ -1,0 +1,44 @@
+/* line 1, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/card.css.scss */
+.card {
+  height: 325px;
+  width: 325px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+/* line 13, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/card.css.scss */
+.square-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  align-item: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 20, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/card.css.scss */
+.square-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 auto;
+          flex: 0 auto;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid black 1px; }
+
+/* line 29, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/card.css.scss */
+.square-box h3 {
+  margin-top: 10px;
+  padding: 0px; }
+
+/* line 34, /Users/benjamintoulemonde/code/Jibenji/julieetfrancis/source/stylesheets/components/card.css.scss */
+.square-box p {
+  margin: 0px;
+  font-size: 16px; }
